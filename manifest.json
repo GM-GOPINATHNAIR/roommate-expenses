@@ -1,20 +1,23 @@
 {
-"name": "Roommate Expense Tracker",
-"short_name": "Expenses",
-"start_url": "./index.html",
-"display": "standalone",
-"background_color": "#f4f6f8",
-"theme_color": "#1a73e8",
-"icons": [
-{
-"src": "data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%231a73e8'/%3E%3Ctext x='256' y='340' font-size='260' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3E%E2%82%B9%3C/text%3E%3C/svg%3E",
-"sizes": "192x192",
-"type": "image/svg+xml"
-},
-{
-"src": "data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%231a73e8'/%3E%3Ctext x='256' y='340' font-size='260' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'%3E%E2%82%B9%3C/text%3E%3C/svg%3E",
-"sizes": "512x512",
-"type": "image/svg+xml"
-}
- ]
+  "name": "Roommate Expense Tracker",
+  "short_name": "Expenses",
+  "start_url": "/roommate-expenses/",
+  "scope": "/roommate-expenses/",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#1a73e8",
+  "icons": [
+    {
+      "src": "https://flaticon.com",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://flaticon.com",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
